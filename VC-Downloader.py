@@ -46,7 +46,7 @@ def downloader(input):
 
 if __name__ == "__main__":
     print(
-        """This is a simple App for downloading mp4 from vc.kntu.ac.ir.
+        """Simple App for downloading mp4 from vc.kntu.ac.ir. :)
     Written by: Hoorad Farrokh and Mojtaba Farrokh"""
     )
     # Use 'with' to ensure the session context is closed after use.
