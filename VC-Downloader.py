@@ -51,7 +51,7 @@ if __name__ == "__main__":
     )
     # Use 'with' to ensure the session context is closed after use.
     Video_url = input("Enter the url of the page that contains videos link:\n")
-    login = input("Enter username:")
+    login = input("Enter your username:")
     passwd = pwinput.pwinput("Enter password:", mask="*")
     if sys.platform == "win32":
         import certifi_win32
